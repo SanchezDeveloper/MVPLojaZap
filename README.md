@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛒 E-commerce de Baixo Custo
 
-## Getting Started
+Projeto de e-commerce simples, moderno e de baixo custo desenvolvido com tecnologias atuais como Next.js, React, TypeScript, React Hook Form, Zod e Shadcn UI. Ideal para negócios que desejam vender online sem complicações.
 
-First, run the development server:
+🟢 **Acesse o projeto online:** [mvp-loja-zap.vercel.app](https://mvp-loja-zap.vercel.app/)
+
+---
+
+## ⚙️ Tecnologias Utilizadas
+
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Zod](https://zod.dev/) — Validação de schemas
+- [React Hook Form](https://react-hook-form.com/) — Manipulação de formulários
+- [shadcn/ui](https://ui.shadcn.dev/) — Componentes UI modernos e acessíveis
+- [Tailwind CSS](https://tailwindcss.com/) — Estilização com classes utilitárias
+
+---
+
+## 🚀 Funcionalidades
+
+- Catálogo de produtos
+- Carrinho de compras
+- Cadastro e edição de produtos (admin)
+- Validação de formulários com Zod
+- UI responsiva e moderna com shadcn/ui
+- Tipagem segura com TypeScript
+
+---
+
+## 📦 Instalação
+
+Clone o projeto:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Crie o arquivo `.env.local` com as variáveis necessárias:
+
+```env
+# Exemplo de variáveis
+DATABASE_URL=
+NEXT_PUBLIC_API_URL=
+```
+
+Rode o projeto em modo de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🗂 Estrutura de Pastas
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+.
+├── app/                  # Rotas e páginas (Next.js 13+)
+├── components/          # Componentes reutilizáveis
+├── lib/                 # Funções auxiliares e validações
+├── types/               # Tipos TypeScript
+├── styles/              # Estilos globais (se houver)
+├── public/              # Assets públicos
+└── ...
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📌 Status do Projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✅ Em desenvolvimento | 🚧 Adicionando novas funcionalidades como:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Integração com métodos de pagamento
+- Autenticação e painel de usuário
+- Filtros por categoria/marca/preço
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contribuição
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Sinta-se à vontade para abrir issues ou pull requests com sugestões, melhorias ou correções.
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença [MIT](LICENSE).
+
+---
+
+## ✨ Créditos
+
+Criado por [Seu Nome](https://github.com/seu-usuario) com ♥
