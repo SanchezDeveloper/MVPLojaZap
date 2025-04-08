@@ -22,7 +22,7 @@ Projeto de e-commerce simples, moderno e de baixo custo desenvolvido com tecnolo
 
 - Catálogo de produtos
 - Carrinho de compras
-- Cadastro e edição de produtos (admin)
+- Cadastro e edição de produtos (manual)
 - Validação de formulários com Zod
 - UI responsiva e moderna com shadcn/ui
 - Tipagem segura com TypeScript
